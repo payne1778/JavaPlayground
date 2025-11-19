@@ -1,7 +1,7 @@
 package JavaGarbageCollectorTest;
 
 public class JavaGarbageCollectorTest {
-    @SuppressWarnings("removal")
+    @SuppressWarnings({"deprecation", "unused"})
     public static void main(String[] args) {
         for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < 100000; j++) {
